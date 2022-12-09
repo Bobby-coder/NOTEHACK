@@ -1,7 +1,13 @@
+import Header from "./components/Header";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <><p>NoteHack</p></>
+    <>
+    <Router>
+      <Header />
+    </Router>
+    </>
   );
 }
 
